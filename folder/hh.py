@@ -31,7 +31,7 @@ def process_text(text):
     return stemmed_words, lemmatized_words
 
 # Specify the path to your PDF file
-txt_file_path = "C:\\Users\\Danny\\.vscode-oss\\Scripts\\.Comp\\Scripts\\kalenjin.txt"  # Change this to your PDF file path
+txt_file_path = "C:\\Users\\Danny\\.vscode-oss\\Scripts\\.Comp\\Scripts\\kalenjin.txt"  # Change this to your Text file path
 
 
 extracted_text = extract_text_from_txt_file(txt_file_path)
